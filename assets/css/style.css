@@ -1,3 +1,4 @@
+/* Header design is in all Portfolio documents */
 header {
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,6 +9,7 @@ header {
     text-align: center;
 }
 
+/* h1 is design is in all Portfolio documents. */
 h1 {
     background-color: #4aaaa5;
     padding: 10px;
@@ -15,6 +17,7 @@ h1 {
     text-align: center;
 }
 
+/* ul is in index.html doc only. */
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,9 +25,12 @@ ul {
     overflow: hidden;
 }
 
+/* li is in index.html doc only. */
 li {
     float: right;
 }
+
+/* li is in index.html doc only. */
 li a {
     display: block;
     color:#777777;
@@ -33,20 +39,12 @@ li a {
     text-decoration: none;
 }
 
+/* li is in index.html doc only. */
 li a.hover {
     background-color: #4aaaa5;
 }
-.about-me-link {
 
-}
-.portfolio-link {
-   
-}
-
-.contact-link {
-   
-}
-
+/* body design is in all Portfolio documents */
 body {
     background-image: url("dynamic-style.png");
     font-family: Arial, Helvetica, sans-serif;
@@ -56,26 +54,32 @@ body {
     width: 100%;
 }
 
+/* .main is in index.html doc only. */
 .main {
     width: 960px;
 }
+
+/* .container is in index.html doc only. */
 .container {
     padding: 40px;
     margin: 10px;
     background-color: #ffffff;
 }
 
+/* body design is in all Portfolio documents */
 h2 {
     color:#4aaaa5;
     border-color: #dddddd;
     border-bottom-style: solid;
 }
 
+/* #bio-paragraph is in index.html doc only. */
 #bio-paragraph {
     width: 100%;
     line-height: 2em;
 }
 
+/* #ashley-headshot is in index.html doc only. */
 #ashley-headshot {
     float: left;
     width: 150px;
@@ -83,6 +87,7 @@ h2 {
     padding: 5px;
 }
 
+/* footer design is in all Portfolio documents */
 footer {
     background-color: #666666;
     text-align: center;
@@ -91,34 +96,46 @@ footer {
     width: 960px; 
 }
 
+/* .contact-form is in contact.html doc only. */
 .contact-form {
     background-color: #ffffff;
     padding: 0px 12px 12px 12px;
     float: center;
     line-height: 1.5em;
 }
+
+/* form is in contact.html doc only. */
 form {
     padding: 12px 12px;
     resize: vertical;
     width: 100%;
 }
 
+/* .message is in contact.html doc only. */
 .message {
     height: 150px;
     width: 150px;
 }
 
+/* .submit is in contact.html doc only. */
 .submit {
     background-color: #4aaaa5;
     padding: 12px;
     color: white;
 }
 
+/* .Portfolio is in portfolio.html doc only. */
+.Portfolio {
+    background-color: #ffffff;
+}
+
+/* .images is in portfolio.html doc only. */
 .images {
     position: relative;
     color: white;
 }
 
+/* #portfolio1 is in portfolio.html doc only. */
 #portfolio1 {
     height: 150px;
     width: 150px;

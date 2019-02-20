@@ -3,8 +3,9 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #cccccc;
     border-bottom-style: solid;
-    padding: 10px;
-    width: 980px;
+    width: 960px;
+    align-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -47,15 +48,19 @@ li a.hover {
 }
 
 body {
-    background-image: url("dynamic-style.png")
+    background-image: url("dynamic-style.png");
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    width: 908px;
+    align-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.main {
+    width: 960px;
+}
 .container {
-    width: 980px;
-    padding: 10px;
+    padding: 40px;
     margin: 10px;
     background-color: #ffffff;
 }
@@ -67,23 +72,40 @@ h2 {
 }
 
 #bio-paragraph {
-    width: 70%;
+    width: 100%;
+    line-height: 2em;
 }
 
 #ashley-headshot {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
 }
 
 footer {
     background-color: #666666;
     text-align: center;
-    width: 980px; 
+    border-color: #4aaaa5;
+    border-top-style: solid;
+    width: 960px; 
 }
 
+.contact-form {
+    background-color: #ffffff;
+    padding: 0px 12px 12px 12px;
+    float: center;
+    line-height: 2em;
+}
 form {
+    padding: 12px 12px;
+    resize: vertical;
     width: 100%;
+}
+
+.message {
+    height: 150px;
+    width: 150px;
 }
 
 .submit {

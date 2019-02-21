@@ -1,28 +1,30 @@
 /* Header design is in all Portfolio documents */
 header {
     background-color: #ffffff;
+    padding: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #cccccc;
     border-bottom-style: solid;
-    width: 960px;
-    align-content: center;
-    text-align: center;
+    position: relative;
+    width: 100%;
+    
 }
 
 /* h1 is design is in all Portfolio documents. */
 h1 {
     background-color: #4aaaa5;
-    padding: 10px;
-    width: 30%;
-    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    float: left;
+    color: #ffffff
 }
 
 /* ul is in index.html doc only. */
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    float: right;
+    padding: 0px;
 }
 
 /* li is in index.html doc only. */
@@ -49,21 +51,17 @@ body {
     background-image: url("dynamic-style.png");
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-/* .main is in index.html doc only. */
-.main {
-    width: 960px;
+    display: inline-block;
+    margin: 0;
 }
 
 /* .container is in index.html doc only. */
 .container {
     padding: 40px;
-    margin: 10px;
+    margin: 20px 100px 0px 100px;
     background-color: #ffffff;
+    width: 960px;
+    align-content: center;
 }
 
 /* body design is in all Portfolio documents */
@@ -94,7 +92,9 @@ footer {
     color: #666666;
     border-color: #4aaaa5;
     border-top-style: solid;
-    width: 960px; 
+    width: 100%;
+    float: center;
+    margin: 0px;
 }
 
 /* .contact-form is in contact.html doc only. */

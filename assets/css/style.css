@@ -82,8 +82,8 @@ h2 {
 /* #ashley-headshot is in index.html doc only. */
 #ashley-headshot {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     padding: 5px;
 }
 
@@ -91,6 +91,7 @@ h2 {
 footer {
     background-color: #666666;
     text-align: center;
+    color: #666666;
     border-color: #4aaaa5;
     border-top-style: solid;
     width: 960px; 

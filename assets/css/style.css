@@ -1,48 +1,56 @@
-/* Header design is in all Portfolio documents */
 header {
+    width: 100%;
     background-color: #ffffff;
-    padding: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #cccccc;
     border-bottom-style: solid;
-    position: relative;
-    width: 100%;
-    
+    padding-left: 100px;
 }
 
-/* h1 is design is in all Portfolio documents. */
+/* Header in all Portfolio documents */
+.header-content {
+    width: 960px;
+    padding: 40px 0px 20px 100px;
+    position: relative;  
+}
+
+.clearfix {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/* h1 in all Portfolio documents. */
 h1 {
     background-color: #4aaaa5;
     position: absolute;
     bottom: 0px;
+    top: 0px;
     padding: 20px;
     float: left;
-    color: #ffffff
+    color: #ffffff;
+    margin: auto;
 }
 
 /* ul is in index.html doc only. */
 ul {
     list-style-type: none;
-    float: right;
-    padding: 0px;
-}
-
-/* li is in index.html doc only. */
-li {
-    float: right;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
 }
 
 /* li is in index.html doc only. */
 li a {
+    float: right;
     display: block;
     color:#777777;
-    text-align: center;
     padding: 10px;
     text-decoration: none;
 }
 
 /* li is in index.html doc only. */
-li a.hover {
+li a:hover {
     background-color: #4aaaa5;
 }
 
@@ -51,14 +59,14 @@ body {
     background-image: url("dynamic-style.png");
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    display: inline-block;
-    margin: 0;
+    margin: 0px;
+    align-content: center;
 }
 
 /* .container is in index.html doc only. */
 .container {
     padding: 40px;
-    margin: 20px 100px 0px 100px;
+    margin: 20px auto;
     background-color: #ffffff;
     width: 960px;
     align-content: center;
@@ -67,8 +75,10 @@ body {
 /* body design is in all Portfolio documents */
 h2 {
     color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #dddddd;
     border-bottom-style: solid;
+    padding-bottom: 20px;
 }
 
 /* #bio-paragraph is in index.html doc only. */
@@ -88,21 +98,12 @@ h2 {
 /* footer design is in all Portfolio documents */
 footer {
     background-color: #666666;
-    text-align: center;
-    color: #666666;
+    padding: 20px;
     border-color: #4aaaa5;
     border-top-style: solid;
     width: 100%;
-    float: center;
-    margin: 0px;
-}
-
-/* .contact-form is in contact.html doc only. */
-.contact-form {
-    background-color: #ffffff;
-    padding: 0px 12px 12px 12px;
-    float: center;
-    line-height: 1.5em;
+    position: absolute;
+    bottom: 0px;
 }
 
 /* form is in contact.html doc only. */
@@ -123,11 +124,6 @@ form {
     background-color: #4aaaa5;
     padding: 12px;
     color: white;
-}
-
-/* .Portfolio is in portfolio.html doc only. */
-.Portfolio {
-    background-color: #ffffff;
 }
 
 /* .images is in portfolio.html doc only. */

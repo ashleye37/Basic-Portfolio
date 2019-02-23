@@ -65,7 +65,7 @@ body {
 
 /* .container is in index.html doc only. */
 .container {
-    padding: 40px;
+    padding: 10px 40px 20px 40px;
     margin: 20px auto;
     background-color: #ffffff;
     width: 960px;
@@ -79,6 +79,7 @@ h2 {
     border-color: #dddddd;
     border-bottom-style: solid;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /* #bio-paragraph is in index.html doc only. */
@@ -92,7 +93,7 @@ h2 {
     float: left;
     width: 160px;
     height: 160px;
-    padding: 5px;
+    padding: 5px 20px 5px 5px;
 }
 
 /* footer design is in all Portfolio documents */
@@ -108,33 +109,54 @@ footer {
 
 /* form is in contact.html doc only. */
 form {
-    padding: 12px 12px;
-    resize: vertical;
-    width: 100%;
+    line-height: 1.5em;
+}
+
+.name {
+    height: 20px;
+    width: 960px;
+    margin-bottom: 10px;
+}
+
+.email {
+    height: 20px;
+    width: 960px;
+    margin-bottom: 10px;
 }
 
 /* .message is in contact.html doc only. */
 .message {
     height: 150px;
-    width: 150px;
+    width: 960px;
+    margin-bottom: 10px;
 }
 
 /* .submit is in contact.html doc only. */
 .submit {
     background-color: #4aaaa5;
-    padding: 12px;
+    padding: 12px 20px;
     color: white;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 /* .images is in portfolio.html doc only. */
 .images {
     position: relative;
-    color: white;
+    top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* #portfolio1 is in portfolio.html doc only. */
-#portfolio1 {
+#portfolio-links {
     height: 150px;
-    width: 150px;
+    width: 200px;
+    position: relative;
 }
 
+.labels {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 0px;
+    width: 200px;
+    text-align: center;
+}

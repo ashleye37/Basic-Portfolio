@@ -143,7 +143,6 @@ form {
 /* .images is in portfolio.html doc only. */
 .images {
     position: relative;
-    top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

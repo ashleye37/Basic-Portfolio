@@ -1,3 +1,4 @@
+/* Header used in index, portfolio and contact documents.*/
 header {
     width: 100%;
     background-color: #ffffff;
@@ -7,20 +8,21 @@ header {
     padding-left: 100px;
 }
 
-/* Header in all Portfolio documents */
+/* Header used in index, portfolio and contact documents.*/
 .header-content {
     width: 960px;
     padding: 40px 0px 20px 100px;
     position: relative;  
 }
 
+/* Clearfix added as a class name inside the header-content class name. Used in index, portfolio and contact documents.*/
 .clearfix {
     content:"";
     display: block;
     clear: both;
 }
 
-/* h1 in all Portfolio documents. */
+/* h1 used in index, portfolio and contact documents.*/
 h1 {
     background-color: #4aaaa5;
     position: absolute;
@@ -32,7 +34,7 @@ h1 {
     margin: auto;
 }
 
-/* ul is in index.html doc only. */
+/* ul is in index.html document only. */
 ul {
     list-style-type: none;
     position: relative;
@@ -40,7 +42,7 @@ ul {
     left: 80px;
 }
 
-/* li is in index.html doc only. */
+/* li is in index.html document only. */
 li a {
     float: right;
     display: block;
@@ -49,12 +51,12 @@ li a {
     text-decoration: none;
 }
 
-/* li is in index.html doc only. */
+/* li is in index.html document only. */
 li a:hover {
     background-color: #4aaaa5;
 }
 
-/* body design is in all Portfolio documents */
+/* body used in index, portfolio and contact documents.*/
 body {
     background-image: url("dynamic-style.png");
     font-family: Arial, Helvetica, sans-serif;
@@ -63,7 +65,7 @@ body {
     align-content: center;
 }
 
-/* .container is in index.html doc only. */
+/* .container is in index.html document only. */
 .container {
     padding: 10px 40px 20px 40px;
     margin: 20px auto;
@@ -73,7 +75,7 @@ body {
     overflow: auto;
 }
 
-/* body design is in all Portfolio documents */
+/* h2 used in index, portfolio and contact documents.*/
 h2 {
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -83,13 +85,13 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* #bio-paragraph is in index.html doc only. */
+/* #bio-paragraph is in index.html document only. */
 #bio-paragraph {
     width: 100%;
     line-height: 2em;
 }
 
-/* #ashley-headshot is in index.html doc only. */
+/* #ashley-headshot is in index.html document only. */
 #ashley-headshot {
     float: left;
     width: 160px;
@@ -97,7 +99,7 @@ h2 {
     padding: 5px 20px 5px 5px;
 }
 
-/* footer design is in all Portfolio documents */
+/* footer used in index and contact documents.*/
 footer {
     background-color: #666666;
     padding: 20px;
@@ -108,6 +110,7 @@ footer {
     bottom: 0px;
 }
 
+/* portfolio-footer used in portfolio document only. */
 #portfolio-footer {
     background-color: #666666;
     padding: 20px;
@@ -118,31 +121,33 @@ footer {
     bottom: 0px;
 }
 
-/* form is in contact.html doc only. */
+/* form is in contact.html document only. */
 form {
     line-height: 1.5em;
 }
 
+/* name used in contact.html document only. */
 #name {
     height: 20px;
     width: 960px;
     margin-bottom: 10px;
 }
 
+/* email used in contact.html document only. */
 #email {
     height: 20px;
     width: 960px;
     margin-bottom: 10px;
 }
 
-/* .message is in contact.html doc only. */
+/* .message used in contact.html document only. */
 #message {
     height: 150px;
     width: 960px;
     margin-bottom: 10px;
 }
 
-/* .submit is in contact.html doc only. */
+/* .submit used in contact.html document only. */
 #submit {
     background-color: #4aaaa5;
     padding: 12px 20px;
@@ -151,6 +156,7 @@ form {
     margin-top: 10px;
 }
 
+/* images used in portfolio.html document only. */
 .images {
     width: 550px;
 }
@@ -160,12 +166,14 @@ form {
     margin: 20px 20px 30px 0px;
 }
 
+/* portfolio-links used in portfolio.html document only. */
 .portfolio-links {
     height: 150px;
     width: 200px;
     position: relative;
 }
 
+/* labels used in portfolio.html document only. */
 .labels {
     background-color: #4aaaa5;
     color: white;

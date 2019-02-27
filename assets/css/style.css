@@ -40,6 +40,7 @@ ul {
     position: relative;
     bottom: 30px;
     left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* li is in index.html document only. */
@@ -49,6 +50,7 @@ li a {
     color:#777777;
     padding: 10px;
     text-decoration: none;
+    opacity: .5;
 }
 
 /* li is in index.html document only. */
@@ -102,23 +104,34 @@ h2 {
 /* footer used in index and contact documents.*/
 footer {
     background-color: #666666;
-    padding: 20px;
+    padding: 10px 50px;
     border-color: #4aaaa5;
     border-top-style: solid;
     width: 100%;
     position: absolute;
     bottom: 0px;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* portfolio-footer used in portfolio document only. */
 #portfolio-footer {
     background-color: #666666;
-    padding: 20px;
+    padding: 10px;
     border-color: #4aaaa5;
     border-top-style: solid;
     width: 100%;
     position: relative;
     bottom: 0px;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#copyright {
+    padding: 20px 0px 0px 0px;
+    opacity: .5;
 }
 
 /* form is in contact.html document only. */
